@@ -27,5 +27,17 @@ body{
     font-size: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    
+
+}
+#col{
+    height: 100%;
+    width: calc(100% / 16);
+}
+#col:hover{
+    background-color: gray;
+}
+#row{
+    display: flex;
+    height: calc(100% / 16);
+    width: 100%;
 }
