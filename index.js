@@ -1,3 +1,7 @@
+function changeColor(e){
+    
+}
+
 let playArea = document.querySelector('.playArea');
 
 for(let i = 1 ; i <= 16; i++){
@@ -11,4 +15,12 @@ row.forEach(e => {
         e.appendChild(document.createElement('div')).setAttribute('id','col');
     }
 });
+
+let col = playArea.querySelectorAll('#col');
+col.forEach((e) => {
+    e.onmouseover = () => {
+        e.style['background-color'] = 'white'
+    }
+})
+
 
