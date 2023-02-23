@@ -27,5 +27,9 @@ rstrtButton.onclick = () => {
     let size = prompt("Whats the new SIZE?");
     sideSize = Number.parseInt(size);
     console.log(size);
+    updatePlayArea(sideSize);
 }
 
+function updatePlayArea(sideSize){
+    
+}
